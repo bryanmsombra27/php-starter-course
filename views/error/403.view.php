@@ -1,19 +1,6 @@
-<?php
-
-loadPartial("head");
- 
-?>
-   <?php
-
-loadPartial("navbar");
-
-?>
-
-   <?php
-
-loadPartial("topbanner");
-
-?>
+<?= loadPartial("head");?>
+<?= loadPartial("navbar");?>
+<?= loadPartial("topbanner");?>
 
 <section>
       <div class="container mx-auto p-4 mt-4">
@@ -26,14 +13,5 @@ loadPartial("topbanner");
 
 
 
-<?php
-
-loadPartial("bottombanner");
-
-?>
-
-   <?php
-
-loadPartial("footer");
-
-?>
+      <?= loadPartial("bottombanner");?>
+      <?= loadPartial("footer");?>

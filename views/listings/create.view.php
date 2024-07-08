@@ -1,19 +1,7 @@
-<?php
+<?= loadPartial("head");?>
+<?= loadPartial("navbar");?>
+<?= loadPartial("topbanner");?>
 
-loadPartial("head");
- 
-?>
-   <?php
-
-loadPartial("navbar");
-
-?>
-
-   <?php
-
-loadPartial("topbanner");
-
-?>
 
 
  <!-- Post a Job Form Box -->
@@ -134,14 +122,5 @@ loadPartial("topbanner");
     </section>
 
 
-<?php
-
-loadPartial("bottombanner");
-
-?>
-
-   <?php
-
-loadPartial("footer");
-
-?>
+    <?= loadPartial("bottombanner");?>
+    <?= loadPartial("footer");?>

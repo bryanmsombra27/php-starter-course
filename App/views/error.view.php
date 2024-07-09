@@ -4,10 +4,11 @@
 
 <section>
       <div class="container mx-auto p-4 mt-4">
-         <div class="text-center text-3xl mb-4 font-bold border border-gray-300 p-3">404 Error</div>
+         <div class="text-center text-3xl mb-4 font-bold border border-gray-300 p-3"><?=$status ?></div>
          <p class="text-center text-2xl mb-4">
-            you are not authorized to view this page
+         <?=$message ?>
          </p>
+         <a href="/listings" class="text-center block " >Go back to listings</a>
       </div>
       </section>
 
